@@ -7,26 +7,40 @@ export default function Header(){
             <div className="header__container">
                 <img src={logo} alt="logo"></img>
                 <div>
-                    <p>Бульвар Космонавтов, д. 9</p>
                     <p>+7 999 888 77 66</p>
                 </div>
             </div>
             <nav className="navigation">
                 <ul>
                     <li>
-                        <a>наши услуги</a>
+                        <a>ФУРШЕТ</a>
                     </li>
                     <li>
-                        <a>рассчет для вас</a>
+                        <a>БАНКЕТ</a>
                     </li>
                     <li>
-                        <a>наши кейсы</a>
+                        <a>ДОСТАВКА</a>
                     </li>
                     <li>
-                        <a>команда chesnokoff</a>
+                        <a>ДЛЯ ДЕТЕЙ</a>
                     </li>
                     <li>
-                        <a>отзывы гостей</a>
+                        <a>О НАС</a>
+                    </li>
+                    <li>
+                        <a>КЕЙТЕРИНГ</a>
+                    </li>
+                    <li>
+                        <a>ПЛОЩАДКИ</a>
+                    </li>
+                    <li>
+                        <a>НАШИ УСЛУГИ</a>
+                    </li>
+                    <li>
+                        <a>ОТЗЫВЫ</a>
+                    </li>
+                    <li>
+                        <a>КОНТАКТЫ</a>
                     </li>
                 </ul>
             </nav>
