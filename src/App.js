@@ -2,11 +2,8 @@ import './index.scss';
 import Header from './components/header/header';
 import Caitering from './components/caitering/caitering';
 import StockList from './components/stockList/stockList';
+import About from './components/about/about';
 
-import img4 from './images/quality.svg';
-import img5 from './images/service.svg';
-import img6 from './images/team.svg';
-import img7 from './images/equip.svg';
 import logo from './images/logo__footer.svg';
 function App() {
   return (
@@ -17,45 +14,7 @@ function App() {
         <div className='container__rectangle'></div>
         <Caitering />
         <StockList />
-          <div className='about'>
-            <div className='about__container container'>
-              <div className='advantages'>
-                <div className='advantages__container'>
-                  <img className='advantages__img' src={img4}></img>
-                  <h4 className='advantages__name'>КАЧЕСТВО</h4>
-                  <p className='advantages__text'>Только свежие и вкусные продукты собственного производства без использования полуфабрикатов</p>
-                </div>
-              </div>
-              <div className='advantages'>
-                  <div className='advantages__container'>
-                  <img className='advantages__img' src={img6}></img>
-                  <h4 className='advantages__name'>КОМАНДА</h4>
-                  <p className='advantages__text'>Команда профессионалов. Повара, официанты,  менеджеры проектов и руководители с большим стажем</p>
-                </div>
-              </div>
-              <div className='advantages'>
-                <div className='advantages__container'>
-                  <img className='advantages__img' src={img7}></img>
-                  <h4 className='advantages__name'>ОБОРУДОВАНИЕ</h4>
-                  <p className='advantages__text'>Современное оборудование и высокие технологии производства</p>
-                </div>
-              </div>
-              <div className='advantages'>
-                <div className='advantages__container'>
-                  <img className='advantages__img' src={img5}></img>
-                  <h4 className='advantages__name'>ОБСЛУЖИВАНИЕ</h4>
-                  <p className='advantages__text'>Высокий уровень сервиса, сервировка столов и стильное оформление.</p>
-                </div>
-              </div>
-              <div className='abbout__description'>
-                <h3 className='about__title'>Chesnokoff кейтеринг это что-то на вкусном</h3>
-                <p className='about__text'>Мы готовим для вас лучшее без использования полуфабрикатов. Все блюда создаются руками наших поваров: мы сами печём булочки для бургеров, засаливаем рыбу, смешиваем маринады и соусы. Благодаря стремлению к совершенству, мы постоянно ищем новые вкусовые сочетания, интересные варианты подачи блюд. Неизменным остаётся только строгая приверженность к свежайшим продуктам.</p>
-                <p className='about__text'>Наша команда уделяет внимание каждой детали. Все заботы о приготовлении, доставке и сервировке блюд мы берём на себя! Вам остаётся только наслаждаться мероприятием.
-                </p>
-              </div>
-              
-            </div>
-          </div>
+        <About />
           <div className='carousel container'></div>
           <div className='form'>
             <form className='form__container container'>

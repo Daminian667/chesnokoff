@@ -8,11 +8,11 @@ import './about.scss';
 
 export default function About() {
 
-    const [visible, setVisible] = useState(false)
+    const [visible, setVisible] = useState(false);
+
     function toggleVisible() {
         visible ? setVisible(false) : setVisible(true)
-        console.log(visible)
-    }
+    };
 
     return (
         <div className='about'>

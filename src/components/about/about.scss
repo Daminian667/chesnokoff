@@ -1,0 +1,138 @@
+.about {
+    background-color: #26292C;
+    margin-top: 197px;
+    padding-top: 167px;
+    padding-bottom: 347px;
+}
+
+.about__container {
+    display: flex;
+    column-gap: 46px;
+    margin-top: 172px;
+}
+
+.advantages {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 274px;
+    height: 297px;
+}
+
+.advantages__container {
+    height: 92%;
+    margin: 7px 6px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img {
+        margin: 16px auto;
+    }
+
+    & h4 {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 101%;
+        margin-block: 0;
+        letter-spacing: 0.045em;
+    }
+
+    & p {
+        margin: 12px auto 31px;
+        font-weight: 400;
+        font-size: 17px;
+        width: 208px;
+        line-height: 105%;
+    }
+}
+
+.advantages__text {
+    text-align: center;
+}
+
+.about__discrition {
+    display: flex;
+    column-gap: 18px;
+    height: 642px;
+}
+
+.about__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 101%;
+    letter-spacing: 0.045em;
+    width: 535px;
+    margin: 23px 0 33px 0;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.045em;
+}
+
+.about__button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    text-decoration-line: underline;
+    color: #A78466;
+    border: none;
+    padding: 0;
+    background-color: initial;
+    margin-top: 43px;
+}
+  
+.about__button:hover {
+    cursor: pointer;
+    opacity: 0.8; 
+}
+  
+.about__text_more {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 1119px; 
+}
+  
+.about__photo_container {
+    background: rgba(38, 41, 44, 0.4);
+    -webkit-backdrop-filter: blur(14px);
+            backdrop-filter: blur(14px);
+    height: 120px;
+    position: relative;
+    top: -145px; 
+}
+  
+.about__photo_description {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    margin: 21px 0 0 21px; 
+}
+  
+.about__photo_description:first-of-type:after {
+    display: block;
+    content: "";
+    border-bottom: 1px #A78466 solid;
+    margin: 13px 0 14px 0;
+    width: 30%; 
+}
+  
+.about__photo_description:last-of-type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #888888;
+    margin: 0 0 26px 21px; 
+}
