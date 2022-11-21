@@ -1,6 +1,6 @@
+import './index.scss';
 import Header from './components/header/header';
-import './header.scss';
-import mainbg from './images/main_bg.jpg';
+import Caitering from './components/caitering/caitering';
 
 import img4 from './images/quality.svg';
 import img5 from './images/service.svg';
@@ -14,12 +14,7 @@ function App() {
       <main className='main'>
         <div className='container__blur container'></div>
         <div className='container__rectangle'></div>
-          <div className='container catering'>
-            <img className='container__bg' alt='image' src={mainbg}></img>
-            <h2 className='container__title'>КЕЙТЕРИНГ</h2>
-            <p className='container__discription'>для ваших мероприятий на высшем уровне</p>
-            <button className='container__button'><p>получить предложение в Whats App</p></button>
-          </div>
+        <Caitering />
           <div className='stocksList container'>
             <div className='stock'>
               <img src={1} className='stock__img'></img>
