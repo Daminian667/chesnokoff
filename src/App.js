@@ -1,24 +1,11 @@
 import Header from './components/header/header';
 import './header.scss';
 import mainbg from './images/main_bg.jpg';
-import img1 from './images/stock1.png';
-import img2 from './images/stock2.png';
-import img3 from './images/stock3.png';
+
 import img4 from './images/quality.svg';
 import img5 from './images/service.svg';
 import img6 from './images/team.svg';
 import img7 from './images/equip.svg';
-import src1 from './images/Rectangle 85.jpg';
-import src2 from './images/Rectangle 88.jpg';
-import src3 from './images/Rectangle 86.jpg';
-import src4 from './images/Rectangle 89.jpg';
-import src5 from './images/Rectangle 117.jpg';
-import src6 from './images/Rectangle 118.jpg';
-import src7 from './images/Rectangle 119.jpg';
-import src8 from './images/Rectangle 121.jpg';
-import src9 from './images/Rectangle 120.jpg';
-import src10 from './images/Rectangle 122.jpg';
-import src11 from './images/Rectangle 123.jpg';
 import logo from './images/logo__footer.svg';
 function App() {
   return (
@@ -35,19 +22,19 @@ function App() {
           </div>
           <div className='stocksList container'>
             <div className='stock'>
-              <img src={img1} className='stock__img'></img>
+              <img src={1} className='stock__img'></img>
               <div className='stock__container'>
                   <h4 className='stock__name'>кофе брейк</h4>
               </div>
             </div>
             <div className='stock'>
-            <img src={img2} className='stock__img'></img>
+            <img src={2} className='stock__img'></img>
               <div className='stock__container'>
                   <h4 className='stock__name'>АКЦИЯ “НОВЫЙ ГОД”</h4>
               </div>
             </div>
             <div className='stock'>
-            <img src={img3} className='stock__img'></img>
+            <img src={3} className='stock__img'></img>
               <div className='stock__container'>
                   <h4 className='stock__name'>ОБСЛУЖИВАНИЕ ВЫСТАВКИ</h4>
               </div>
@@ -106,22 +93,6 @@ function App() {
               <input id="number_of_gests" type="number" name="number_of_gests" placeholder='колличество гостей'></input>
               <button className='form__button' type='submit' onClick={(e) => { e.preventDefault(); console.log("click")}}>отправить</button>
             </form>
-          </div>
-          <div className='galery'>
-            <p className='galery__title container'>Галерея блюд</p>
-            <div className='galery__grid'>
-              <img src={src1} className='grid__item a'></img>
-              <img src={src2} className='grid__item b'></img>
-              <img src={src3} className='grid__item c'></img>
-              <img src={src4} className='grid__item d'></img>
-              <img src={src5} className='grid__item e'></img>
-              <img src={src6} className='grid__item f'></img>
-              <img src={src8} className='grid__item h'></img>
-              <img src={src9} className='grid__item i'></img>
-              <img src={src10} className='grid__item j'></img>
-              <img src={src11} className='grid__item k'></img>
-              <img src={src7} className='grid__item g'></img>
-            </div>
           </div>
           <div className='review container'>
               <div className='review__bg'>

@@ -28,22 +28,20 @@
         }
 
         p {
-            font-style: normal;
-            font-weight: 600;
-            font-size: 46px;
-            line-height: 55px;
-            margin: 0px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43.2px;
+            margin: 0 45px 0 0;
         }
     }
 }
 
 .navigation {
     padding: 32px 100px 0 100px;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 31px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.22px;
     letter-spacing: 0.045em;
-    text-transform: uppercase;
 
     ul {
         display: flex;
@@ -72,4 +70,57 @@
     li :hover {
         cursor: pointer;
     }
+}
+
+.header__contacts {
+    display: flex;
+    height: 54px;
+    align-self: flex-end; 
+}
+
+.header__button_sn {
+    width: 43px;
+    height: 43px;
+    margin: 0 18px 0 0;
+    background-position: center;
+    background-size: cover;
+    background-color: unset;
+    padding: 0;
+    border: none; 
+}
+  
+.header__button_sn:hover {
+    cursor: pointer;
+    opacity: 0.6; 
+}
+
+.header__button {
+    width: 312px;
+    height: 54px;
+    justify-self: center;
+    background-image: url(../../images/btn_bg.svg);
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #424242; 
+}
+
+.header__button:hover {
+    cursor: pointer;
+    opacity: 0.8; 
+}
+  
+.header__button::after {
+    display: block;
+    content: "";
+    border-bottom: 2px #424242 solid;
+    width: 86%;
+    position: relative;
+    left: 7%; 
 }
