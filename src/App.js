@@ -3,6 +3,7 @@ import Header from './components/header/header';
 import Caitering from './components/caitering/caitering';
 import StockList from './components/stockList/stockList';
 import About from './components/about/about';
+import Carusel from './components/carusel/carusel';
 
 import logo from './images/logo__footer.svg';
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Caitering />
         <StockList />
         <About />
-          <div className='carousel container'></div>
+        <Carusel />
           <div className='form'>
             <form className='form__container container'>
               <p className='form__title'>Ответьте на несколько вопросов и мы перезвоним вам с предложением</p>

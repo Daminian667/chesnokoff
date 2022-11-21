@@ -1,0 +1,36 @@
+.carousel {
+    background-color: #465562;
+    display: flex;
+    height: 946px;
+    position: relative;
+    top: -225px;
+    margin: 0 209px;
+}
+
+.carusel__nav {
+    margin: 26px 85px 50px 85px;
+    
+    & ul {
+        display: flex;
+        
+    }
+
+    & li {
+        list-style: none;
+        
+    }
+
+    & button {
+        width: 431px;
+        height: 108px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0.045em;
+        background: #26292C;
+        border: none;
+        padding: 0;
+    }
+}
+
