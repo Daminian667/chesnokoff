@@ -58,52 +58,6 @@ body {
 
 
 
-.stocksList {
-    margin-top: 228px;
-    display: flex;
-    column-gap: 25px;
-}
-
-.stock {
-    width: 355px;
-    height: 606px;
-
-    & img {
-        filter: brightness(0.6);
-        position: absolute;
-        z-index: -1;
-    }
-
-    & div {
-        margin: 25px;
-        border: 1px solid #fff;
-        height: 91%;
-        display: flex;
-    }
-
-    & h4 {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 36px;
-        letter-spacing: 0.045em;
-        text-transform: uppercase;
-        align-self: flex-end;
-        margin: 0 0 8px 13px;
-        width: 75%;
-    }
-}
-
-.stock:first-of-type {
-    position: relative;
-    top: 110px;
-}
-
-.stock:last-of-type {
-    position: relative;
-    top: -110px;
-}
-
-
 
 .about {
     background-color: #26292C;

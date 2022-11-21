@@ -1,6 +1,7 @@
 import './index.scss';
 import Header from './components/header/header';
 import Caitering from './components/caitering/caitering';
+import StockList from './components/stockList/stockList';
 
 import img4 from './images/quality.svg';
 import img5 from './images/service.svg';
@@ -15,26 +16,7 @@ function App() {
         <div className='container__blur container'></div>
         <div className='container__rectangle'></div>
         <Caitering />
-          <div className='stocksList container'>
-            <div className='stock'>
-              <img src={1} className='stock__img'></img>
-              <div className='stock__container'>
-                  <h4 className='stock__name'>кофе брейк</h4>
-              </div>
-            </div>
-            <div className='stock'>
-            <img src={2} className='stock__img'></img>
-              <div className='stock__container'>
-                  <h4 className='stock__name'>АКЦИЯ “НОВЫЙ ГОД”</h4>
-              </div>
-            </div>
-            <div className='stock'>
-            <img src={3} className='stock__img'></img>
-              <div className='stock__container'>
-                  <h4 className='stock__name'>ОБСЛУЖИВАНИЕ ВЫСТАВКИ</h4>
-              </div>
-            </div>
-          </div>
+        <StockList />
           <div className='about'>
             <div className='about__container container'>
               <div className='advantages'>

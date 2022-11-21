@@ -1,7 +1,7 @@
 import img1 from '../../images/stock1.jpg';
 import img2 from '../../images/stock2.jpg';
 import img3 from '../../images/stock3.jpg';
-import img4 from '../../images/stock3.jpg';
+import img4 from '../../images/stock4.jpg';
 import './stockList.scss';
 
 export default function StockList() {
