@@ -3,6 +3,7 @@ import mainbg from '../../images/main_bg.jpg';
 import StockList from '../../components/stockList/stockList';
 import About from '../../components/about/about';
 import Essential from '../essential/essential';
+import Services from '../services/services';
 
 export default function Main() {
     return(
@@ -20,6 +21,7 @@ export default function Main() {
             <StockList />
             <About />
             <Essential />
+            <Services />
         </main>
     )
 }
