@@ -4,6 +4,8 @@ import StockList from '../../components/stockList/stockList';
 import About from '../../components/about/about';
 import Essential from '../essential/essential';
 import Services from '../services/services';
+import Review from '../review/review';
+import Feedback from '../feedback/feedback';
 
 export default function Main() {
     return(
@@ -22,6 +24,8 @@ export default function Main() {
             <About />
             <Essential />
             <Services />
+            <Review />
+            <Feedback />
         </main>
     )
 }
