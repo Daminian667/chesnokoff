@@ -23,12 +23,12 @@ export default function Header(){
         <header className="header">
             <div className="header__container">
                 <img src={logo} alt="logo"></img>
-                <div class="header__contacts">
-                    <button class="header__button_sn" style={styleWaButton}></button>
-                    <button class="header__button_sn" style={styleTgButton}></button>
-                    <button class="header__button_sn" style={styleCallButton}></button>
+                <div className="header__contacts">
+                    <button className="header__button_sn" style={styleWaButton}></button>
+                    <button className="header__button_sn" style={styleTgButton}></button>
+                    <button className="header__button_sn" style={styleCallButton}></button>
                     <p>+7 903 700-49-54</p>
-                    <button class="header__button">заказать звонок</button>
+                    <button className="header__button">заказать звонок</button>
                 </div>
             </div>
             <nav className="navigation">

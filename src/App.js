@@ -1,36 +1,13 @@
 import './index.scss';
 import Header from './components/header/header';
-import Caitering from './components/caitering/caitering';
-import StockList from './components/stockList/stockList';
-import About from './components/about/about';
-import Carusel from './components/carusel/carusel';
+import Main from './components/main/main';
 
 import logo from './images/logo__footer.svg';
 function App() {
   return (
     <div className="App">
       <Header />
-      <main className='main'>
-        <div className='container__blur container'></div>
-        <div className='container__rectangle'></div>
-        <Caitering />
-        <StockList />
-        <About />
-        <Carusel />
-          <div className='form'>
-            <form className='form__container container'>
-              <p className='form__title'>Ответьте на несколько вопросов и мы перезвоним вам с предложением</p>
-              <input id="name" type="text" name="name" placeholder='ваше имя'></input>
-              <input id="email" type="email" name="email" placeholder='ваш емейл'></input>
-              <input id="phone" type="tel" name="phone" placeholder='телефон'></input>
-              <input id="adress" type="text" name="adress" placeholder='адрес проведения'></input>
-              <input id="data" type="date" name="data" placeholder='дата мероприятия'></input>
-              <input id="time" type="time" name="time" placeholder='тайминг мероприятия'></input>
-              <input id="event" type="text" name="event" placeholder='формат мероприятия'></input>
-              <input id="number_of_gests" type="number" name="number_of_gests" placeholder='колличество гостей'></input>
-              <button className='form__button' type='submit' onClick={(e) => { e.preventDefault(); console.log("click")}}>отправить</button>
-            </form>
-          </div>
+      <Main />
           <div className='review container'>
               <div className='review__bg'>
 
@@ -60,7 +37,6 @@ function App() {
               <button className='feedback__button'>ОТПРАВИТЬ</button>
             </div>
           </div>
-      </main>
       <footer className='footer'>
         <div className='footer__container container'>
           <img className='footer__logo' src={logo}></img>
