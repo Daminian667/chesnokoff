@@ -1,8 +1,12 @@
+.partners__container{
+    display: flex;
+}
+
 .partners__list {
     width: 100%;
     max-height: 25px;
     display: flex;
-    margin: 47px 0 84px 152px;
+    margin: 47px 0 0 152px;
 
     & li {
         list-style: none;
@@ -19,4 +23,29 @@
         border: none;
         background-color: initial;
     }
+}
+
+.partners__description{
+    display: flex;
+    flex-direction: column;
+    margin: 153px 47px 0 198px;
+    max-width: 521px;
+}
+
+.partners__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 101%;
+    letter-spacing: 0.045em;
+    margin: 0 0 38px 0;
+}
+
+.partners__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+
 }
