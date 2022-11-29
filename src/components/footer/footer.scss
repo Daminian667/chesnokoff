@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Vera Crouz';
+    src: url(../../fonts/VeraCrouzRegular.ttf)format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #26292C;
+    padding:0 0 37px 0;
+    position: relative;
+}
+
+.footer__container {
+    display: flex;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+    color: #BCBCBC;
+    padding-top: 83px;
+}
+
+.footer__nav_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer__nav_title::after {
+    display: block;
+    content: "";
+    border-bottom: 1px #A78466 solid;
+    width: 50%;
+    position: relative;
+    margin-top: 11px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.footer__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0;
+    margin-top: 13px;
+}
+
+.footer__item {
+    margin-bottom: 16px;
+}
+
+.footer__contacts {
+    border-left: 1px #A78466 solid;
+    padding-left: 89px;
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__adress {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    margin: 0 0 15px 0;
+}
+
+.footer__phone {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer__map {
+    z-index: 1;
+    filter: grayscale(100%);
+}
+
+.footer__overlay {
+    position: absolute;
+    top: 110px;
+    z-index: 2;
+    width: 616px;
+    height: 572px;
+    background: rgba(38, 41, 44, 0.8);
+    backdrop-filter: blur(9px);
+    margin-left: 377px;
+}
+
+.footer__overlay_container {
+    margin: 52px 0px 62px 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__subtitle {
+    margin: 0 0 49px 29px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.045em;
+
+}
+
+.footer__subtitle::after {
+    display: block;
+    content: "";
+    position: relative;
+    border: 1px #A78466 solid;
+    width: 81%;
+}
+
+.footer__overlay_contacts {
+    display: flex;
+
+    & img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.footer__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.045em;
+    margin: 0 0 49px 20px;
+}
+
+.footer__button {
+    width: 293px;
+    height: 59px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    border: none;
+    background-image: url(../../images/btn_bg.svg);
+    color: #26292C;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    text-decoration: underline;
+}
+
+.footer__button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer__slogan {
+    font-family: 'Vera Crouz';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.56);
+    margin: 37px 0 0 0;
+}
