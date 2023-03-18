@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chesnokoff/static/css/main.d24b24aa.css",
+    "main.css": "/chesnokoff/static/css/main.cbdd9f2e.css",
     "main.js": "/chesnokoff/static/js/main.55bae107.js",
     "static/media/closh.svg": "/chesnokoff/static/media/closh.9ca3a1e7bd48ace738e1d871b281d3f9.svg",
     "static/media/equip.svg": "/chesnokoff/static/media/equip.ef7f8369978415aaaabe8bdb87f75def.svg",
@@ -74,11 +74,11 @@
     "static/media/call.svg": "/chesnokoff/static/media/call.474655dcbec2a6eb36e5a85fe2b975c1.svg",
     "static/media/location.svg": "/chesnokoff/static/media/location.c561e4e950909eae3adea7245bfb40d8.svg",
     "index.html": "/chesnokoff/index.html",
-    "main.d24b24aa.css.map": "/chesnokoff/static/css/main.d24b24aa.css.map",
+    "main.cbdd9f2e.css.map": "/chesnokoff/static/css/main.cbdd9f2e.css.map",
     "main.55bae107.js.map": "/chesnokoff/static/js/main.55bae107.js.map"
   },
   "entrypoints": [
-    "static/css/main.d24b24aa.css",
+    "static/css/main.cbdd9f2e.css",
     "static/js/main.55bae107.js"
   ]
 }
