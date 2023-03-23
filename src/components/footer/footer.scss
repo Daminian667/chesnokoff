@@ -51,7 +51,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 0;
     margin-top: 13px;
 }
@@ -63,8 +63,8 @@
 .footer__contacts {
     border-left: 1px #A78466 solid;
     padding-left: 89px;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
     display: flex;
     flex-direction: column;
 }

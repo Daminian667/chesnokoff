@@ -1,0 +1,72 @@
+.bankets__list {
+    margin: 226px 379px 0 379px;
+}
+
+.bankets__solts {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.045em;
+    color: #A78466;
+
+    & :hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.bankets__soltsLink {
+    margin: 0 5px 0 5px;
+}
+
+.bankets__title {
+    color: #26292C;
+    margin: 93px 0 0 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.045em;
+}
+
+.bankets__menuList {
+    margin-top: 73px;
+    display: flex;
+}
+
+.bankets__nav {
+    display: flex;
+    flex-direction: column;
+    width: 221px;
+    max-height: 734px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.045em;
+    margin: 0 34px 0 0;
+    border-left: 3px solid #A78466;
+    & a {
+        margin: 35px 0 35px 28px;
+    }
+
+    & a:hover {
+        font-weight: 800;
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+
+    & a:active {
+        font-weight: 800;
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+    
+}
+
+ul {
+    list-style-type: none;
+}

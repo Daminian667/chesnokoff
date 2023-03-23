@@ -29,7 +29,7 @@
 
         p {
             font-weight: 700;
-            font-size: 36px;
+            font-size: 2.25em;
             line-height: 43.2px;
             margin: 0 45px 0 0;
         }
@@ -37,7 +37,7 @@
 }
 
 .navigation {
-    padding: 32px 100px 0 100px;
+    padding-top: 32px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24.22px;
@@ -48,7 +48,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     a:after {
@@ -123,4 +123,27 @@
     width: 86%;
     position: relative;
     left: 7%; 
+}
+
+
+@media screen and (max-width: 1300px) {
+    .header__container {
+
+        div {
+            
+            p {
+                font-size: 1.67em;
+                margin: 0 1em 0 0;
+            }
+        }
+    }
+
+    .header__button_sn {
+        width: 34px;
+        height: 34px;
+    }
+
+    .navigation {
+        font-size: 16px;
+    }
 }

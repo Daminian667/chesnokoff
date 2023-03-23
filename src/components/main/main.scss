@@ -1,9 +1,13 @@
+.main {
+    margin-left: 341px;
+}
+
 .catering {
     margin-top: 326px;
     display: flex;
     flex-direction: column;
     width: 794px;
-    padding: 111px 69px 0 0;
+    padding: 111px 69px 0 41px;
 }
 
 .container__rectangle {
@@ -30,7 +34,7 @@
     width: 1515px;
     height: 943px;
     top: 0;
-    left: 599px;
+    left: 388px;
     z-index: -2;
     filter: brightness(0.5);
 }
@@ -45,6 +49,7 @@
     flex-direction: column;
 
     & span {
+        display: none;
         font-style: normal;
         font-weight: 300;
         font-size: 29px;
@@ -68,7 +73,7 @@
     width: 776px;
     position: relative;
     right: -174px;
-    top: 0px;
+    top: 50px;
     height: 81px;
     text-transform: uppercase;
     background-image: url(../../images/btn_bg.svg);

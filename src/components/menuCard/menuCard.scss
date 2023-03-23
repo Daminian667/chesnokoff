@@ -1,0 +1,65 @@
+.menu__card {
+    min-width: 880px;
+    padding: 29px 29px 21px 30px;
+    background: #b8b7b2;
+    border: 1px solid #A78466;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 29px;
+    display: grid;
+    grid-template-areas: 
+        "photo title ."
+        "photo sp ."
+        "photo description ."
+        "photo wight price";
+
+    & .menu__title {
+        grid-area: title;
+        color: #000;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 101%;
+        letter-spacing: 0.045em;
+    }
+
+    & .menu__description {
+        grid-area: description;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+
+        & p {
+            grid-area: sp;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            color: #A78466;
+        }
+    }
+
+    & .menu__wight {
+        grid-area: wight;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 34px;
+        color: #888888;
+    }
+
+    & .menu__price {
+        grid-area: price;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 48px;
+        text-align: right;
+        color: #26292C;
+    }
+
+    & .menu__photo {
+        grid-area: photo;
+    }
+}
