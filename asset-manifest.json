@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/chesnokoff/static/css/main.ff694359.css",
+    "main.js": "/chesnokoff/static/js/main.c995daf4.js",
+    "static/media/btn_bg.svg": "/chesnokoff/static/media/btn_bg.2b6a5875e2a23b32ed25.svg",
+    "static/media/main_bg.jpg": "/chesnokoff/static/media/main_bg.0073abcf9e0966b26c72.jpg",
+    "static/media/banket_background.jpg": "/chesnokoff/static/media/banket_background.d66c82619c243b90b3c9.jpg",
+    "static/media/VeraCrouzRegular.ttf": "/chesnokoff/static/media/VeraCrouzRegular.5f2df29546b7b2efe2b9.ttf",
+    "static/media/Panton-Bold.eot": "/chesnokoff/static/media/Panton-Bold.2198ec681e329f02bfa6.eot",
+    "static/media/Panton-Bold.ttf": "/chesnokoff/static/media/Panton-Bold.12bbfecd829f5b85cc09.ttf",
+    "static/media/Panton-SemiBold.eot": "/chesnokoff/static/media/Panton-SemiBold.523f99f2c2af3fff525d.eot",
+    "static/media/Panton-SemiBold.ttf": "/chesnokoff/static/media/Panton-SemiBold.1d0d27210fc1b1f0fef9.ttf",
+    "static/media/Panton-Regular.eot": "/chesnokoff/static/media/Panton-Regular.4685a5ac96e2d6055ec8.eot",
+    "static/media/Panton-Regular.ttf": "/chesnokoff/static/media/Panton-Regular.669579f0481addbc782e.ttf",
+    "static/media/Panton-ExtraLight.eot": "/chesnokoff/static/media/Panton-ExtraLight.abef616d2ea39b251af6.eot",
+    "static/media/Panton-ExtraLight.ttf": "/chesnokoff/static/media/Panton-ExtraLight.b7afaf901e92811a3a07.ttf",
+    "static/media/Rectangle 207.jpg": "/chesnokoff/static/media/Rectangle 207.2adfbe9fab9c37746ade.jpg",
+    "static/media/Panton-SemiBold.woff": "/chesnokoff/static/media/Panton-SemiBold.8ca10ba7a8f4dfc51791.woff",
+    "static/media/Panton-Bold.woff": "/chesnokoff/static/media/Panton-Bold.3347270ff37ef7578c68.woff",
+    "static/media/Panton-Regular.woff": "/chesnokoff/static/media/Panton-Regular.55caa3842e86ca77dad8.woff",
+    "static/media/Panton-ExtraLight.woff": "/chesnokoff/static/media/Panton-ExtraLight.714d7688bcad76f6c2d1.woff",
+    "static/media/Panton-SemiBold.woff2": "/chesnokoff/static/media/Panton-SemiBold.046a537ab33868b58733.woff2",
+    "static/media/Panton-Bold.woff2": "/chesnokoff/static/media/Panton-Bold.d28042dcb854ba274fc5.woff2",
+    "static/media/Panton-Regular.woff2": "/chesnokoff/static/media/Panton-Regular.bedb6fee37ac71d6b5f9.woff2",
+    "static/media/Panton-ExtraLight.woff2": "/chesnokoff/static/media/Panton-ExtraLight.8a29ea61050167088ea1.woff2",
+    "static/media/logo__footer.svg": "/chesnokoff/static/media/logo__footer.dea84c79210e0b4e4500e096bd8f67a7.svg",
+    "static/media/logo.svg": "/chesnokoff/static/media/logo.3faab647dbd3c1857d0be8b01472fc19.svg",
+    "static/media/wa.svg": "/chesnokoff/static/media/wa.4bc4546e36150d2aa4505adc5800faae.svg",
+    "static/media/tg.svg": "/chesnokoff/static/media/tg.3f1a7705258429ca8fcf34d84d64db06.svg",
+    "static/media/call.svg": "/chesnokoff/static/media/call.474655dcbec2a6eb36e5a85fe2b975c1.svg",
+    "static/media/location.svg": "/chesnokoff/static/media/location.c561e4e950909eae3adea7245bfb40d8.svg",
+    "index.html": "/chesnokoff/index.html",
+    "main.ff694359.css.map": "/chesnokoff/static/css/main.ff694359.css.map",
+    "main.c995daf4.js.map": "/chesnokoff/static/js/main.c995daf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff694359.css",
+    "static/js/main.c995daf4.js"
+  ]
+}
