@@ -4,8 +4,10 @@ import Main from '../components/main/main';
 import Footer from "../components/footer/footer";
 import MenuCard from "../components/menuCard/menuCard";
 import src from '../images/banket_background.jpg';
+import menu from '../constants/банкетное меню.json';
 
 export default function Bankets() {
+    const Menu = menu;
     return (
         <div>
             <Header />
@@ -29,14 +31,18 @@ export default function Bankets() {
                         <a>НАПИТКИ</a>
                     </nav>
                     <ul className="bankets__cardList>">
-                        <li>
-                            <MenuCard />
-                            <MenuCard />
-                            <MenuCard />
-                            <MenuCard />
-                            <MenuCard />
-
-                        </li>
+                        {Menu.map((item) => {
+                            return (
+                            <li>
+                                <MenuCard 
+                                    name={item.name}
+                                    description={item.description}
+                                    wight={item.wight}
+                                    price={item.price}
+                                />
+                            </li>
+                            )
+                        })}
                     </ul>
                     <div className='bankets__pagination'>
                         
